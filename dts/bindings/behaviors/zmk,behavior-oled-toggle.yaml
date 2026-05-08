@@ -1,0 +1,3 @@
+description: OLED display toggle behavior
+compatible: "zmk,behavior-oled-toggle"
+include: zero_param.yaml
