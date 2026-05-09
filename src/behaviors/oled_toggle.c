@@ -4,6 +4,7 @@
 #include <zephyr/logging/log.h>
 #include <zephyr/sys/dlist.h>
 #include <zephyr/kernel.h>
+#include <zephyr/drivers/display.h>
 
 #include <drivers/behavior.h>
 
