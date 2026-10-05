@@ -1,4 +1,4 @@
-name: zmk-oled-module
+name: zmk-behavior-oled-toggle
 build:
   cmake: .
   kconfig: Kconfig
