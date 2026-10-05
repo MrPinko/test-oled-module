@@ -12,4 +12,4 @@ struct zmk_oled_cycle_event {
     uint8_t dummy;
 };
 
-ZMK_EVENT_DECLARE(struct zmk_oled_cycle_event);
+ZMK_EVENT_DECLARE(zmk_oled_cycle_event);
