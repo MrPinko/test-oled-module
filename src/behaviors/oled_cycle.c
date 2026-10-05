@@ -21,7 +21,7 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #define DT_DRV_COMPAT zmk_behavior_oled_gif_cycle
 
-ZMK_EVENT_IMPL(struct zmk_oled_cycle_event);
+ZMK_EVENT_IMPL(zmk_oled_cycle_event);
 
 static int on_keymap_binding_pressed(struct zmk_behavior_binding *binding,
                                      struct zmk_behavior_binding_event event) {
