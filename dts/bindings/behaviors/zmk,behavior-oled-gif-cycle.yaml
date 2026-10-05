@@ -1,0 +1,11 @@
+# Copyright (c) 2024 Federico (MrPinko)
+# SPDX-License-Identifier: MIT
+
+description: |
+  OLED image / animated GIF cycle behavior.
+  Pressing this key cycles to the next image or animated GIF on the OLED.
+  Uses BEHAVIOR_LOCALITY_GLOBAL so both halves of a split keyboard respond.
+
+compatible: "zmk,behavior-oled-gif-cycle"
+
+include: zero_param.yaml
