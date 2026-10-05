@@ -5,3 +5,8 @@ config ZMK_BEHAVIOR_OLED_TOGGLE
     bool "OLED display toggle behavior"
     depends on ZMK_DISPLAY
     default y
+
+config ZMK_BEHAVIOR_OLED_GIF_CYCLE
+    bool "OLED image/GIF cycle behavior"
+    depends on ZMK_DISPLAY
+    default y
