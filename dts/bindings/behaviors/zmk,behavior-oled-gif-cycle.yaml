@@ -8,4 +8,4 @@ description: |
 
 compatible: "zmk,behavior-oled-gif-cycle"
 
-include: zero_param.yaml
+include: one_param.yaml
