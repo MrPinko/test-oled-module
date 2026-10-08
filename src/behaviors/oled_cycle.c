@@ -25,7 +25,8 @@ ZMK_EVENT_IMPL(zmk_oled_cycle_event);
 
 static int on_keymap_binding_pressed(struct zmk_behavior_binding *binding,
                                      struct zmk_behavior_binding_event event) {
-    LOG_DBG("OLED cycle key pressed -> raising zmk_oled_cycle_event");
+    LOG_DBG("OLED cycle key pressed %d -> raising zmk_oled_cycle_event", event.position);
+    LOG_DBG("OLED cycle key param1 (%d)", binding->param1);
     raise_zmk_oled_cycle_event((struct zmk_oled_cycle_event){});
     return ZMK_BEHAVIOR_OPAQUE;
 }
